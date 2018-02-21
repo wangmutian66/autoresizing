@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC6B626F203D586400116EBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6B626E203D586400116EBD /* AppDelegate.m */; };
+		EC6B6272203D586400116EBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6B6271203D586400116EBD /* ViewController.m */; };
+		EC6B6275203D586400116EBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6B6273203D586400116EBD /* Main.storyboard */; };
+		EC6B6277203D586400116EBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6B6276203D586400116EBD /* Assets.xcassets */; };
+		EC6B627A203D586400116EBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6B6278203D586400116EBD /* LaunchScreen.storyboard */; };
+		EC6B627D203D586400116EBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6B627C203D586400116EBD /* main.m */; };
+		EC6B6287203D586400116EBD /* autoresizingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6B6286203D586400116EBD /* autoresizingTests.m */; };
+		EC6B6292203D586400116EBD /* autoresizingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6B6291203D586400116EBD /* autoresizingUITests.m */; };
+		EC6B62A0203D58DA00116EBD /* tesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6B629F203D58DA00116EBD /* tesView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC6B6283203D586400116EBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6B6262203D586300116EBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC6B6269203D586400116EBD;
+			remoteInfo = autoresizing;
+		};
+		EC6B628E203D586400116EBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6B6262203D586300116EBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC6B6269203D586400116EBD;
+			remoteInfo = autoresizing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC6B626A203D586400116EBD /* autoresizing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autoresizing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6B626D203D586400116EBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC6B626E203D586400116EBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC6B6270203D586400116EBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC6B6271203D586400116EBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC6B6274203D586400116EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC6B6276203D586400116EBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC6B6279203D586400116EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC6B627B203D586400116EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6B627C203D586400116EBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC6B6282203D586400116EBD /* autoresizingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autoresizingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6B6286203D586400116EBD /* autoresizingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = autoresizingTests.m; sourceTree = "<group>"; };
+		EC6B6288203D586400116EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6B628D203D586400116EBD /* autoresizingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autoresizingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6B6291203D586400116EBD /* autoresizingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = autoresizingUITests.m; sourceTree = "<group>"; };
+		EC6B6293203D586400116EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6B629F203D58DA00116EBD /* tesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tesView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC6B6267203D586400116EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6B627F203D586400116EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6B628A203D586400116EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC6B6261203D586300116EBD = {
+			isa = PBXGroup;
+			children = (
+				EC6B626C203D586400116EBD /* autoresizing */,
+				EC6B6285203D586400116EBD /* autoresizingTests */,
+				EC6B6290203D586400116EBD /* autoresizingUITests */,
+				EC6B626B203D586400116EBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC6B626B203D586400116EBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC6B626A203D586400116EBD /* autoresizing.app */,
+				EC6B6282203D586400116EBD /* autoresizingTests.xctest */,
+				EC6B628D203D586400116EBD /* autoresizingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC6B626C203D586400116EBD /* autoresizing */ = {
+			isa = PBXGroup;
+			children = (
+				EC6B626D203D586400116EBD /* AppDelegate.h */,
+				EC6B626E203D586400116EBD /* AppDelegate.m */,
+				EC6B6270203D586400116EBD /* ViewController.h */,
+				EC6B6271203D586400116EBD /* ViewController.m */,
+				EC6B6273203D586400116EBD /* Main.storyboard */,
+				EC6B6276203D586400116EBD /* Assets.xcassets */,
+				EC6B6278203D586400116EBD /* LaunchScreen.storyboard */,
+				EC6B627B203D586400116EBD /* Info.plist */,
+				EC6B627C203D586400116EBD /* main.m */,
+				EC6B629F203D58DA00116EBD /* tesView.xib */,
+			);
+			path = autoresizing;
+			sourceTree = "<group>";
+		};
+		EC6B6285203D586400116EBD /* autoresizingTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC6B6286203D586400116EBD /* autoresizingTests.m */,
+				EC6B6288203D586400116EBD /* Info.plist */,
+			);
+			path = autoresizingTests;
+			sourceTree = "<group>";
+		};
+		EC6B6290203D586400116EBD /* autoresizingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC6B6291203D586400116EBD /* autoresizingUITests.m */,
+				EC6B6293203D586400116EBD /* Info.plist */,
+			);
+			path = autoresizingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC6B6269203D586400116EBD /* autoresizing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6B6296203D586400116EBD /* Build configuration list for PBXNativeTarget "autoresizing" */;
+			buildPhases = (
+				EC6B6266203D586400116EBD /* Sources */,
+				EC6B6267203D586400116EBD /* Frameworks */,
+				EC6B6268203D586400116EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = autoresizing;
+			productName = autoresizing;
+			productReference = EC6B626A203D586400116EBD /* autoresizing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC6B6281203D586400116EBD /* autoresizingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6B6299203D586400116EBD /* Build configuration list for PBXNativeTarget "autoresizingTests" */;
+			buildPhases = (
+				EC6B627E203D586400116EBD /* Sources */,
+				EC6B627F203D586400116EBD /* Frameworks */,
+				EC6B6280203D586400116EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC6B6284203D586400116EBD /* PBXTargetDependency */,
+			);
+			name = autoresizingTests;
+			productName = autoresizingTests;
+			productReference = EC6B6282203D586400116EBD /* autoresizingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC6B628C203D586400116EBD /* autoresizingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6B629C203D586400116EBD /* Build configuration list for PBXNativeTarget "autoresizingUITests" */;
+			buildPhases = (
+				EC6B6289203D586400116EBD /* Sources */,
+				EC6B628A203D586400116EBD /* Frameworks */,
+				EC6B628B203D586400116EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC6B628F203D586400116EBD /* PBXTargetDependency */,
+			);
+			name = autoresizingUITests;
+			productName = autoresizingUITests;
+			productReference = EC6B628D203D586400116EBD /* autoresizingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC6B6262203D586300116EBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = wangmutian;
+				TargetAttributes = {
+					EC6B6269203D586400116EBD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EC6B6281203D586400116EBD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC6B6269203D586400116EBD;
+					};
+					EC6B628C203D586400116EBD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC6B6269203D586400116EBD;
+					};
+				};
+			};
+			buildConfigurationList = EC6B6265203D586300116EBD /* Build configuration list for PBXProject "autoresizing" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC6B6261203D586300116EBD;
+			productRefGroup = EC6B626B203D586400116EBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC6B6269203D586400116EBD /* autoresizing */,
+				EC6B6281203D586400116EBD /* autoresizingTests */,
+				EC6B628C203D586400116EBD /* autoresizingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC6B6268203D586400116EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6B627A203D586400116EBD /* LaunchScreen.storyboard in Resources */,
+				EC6B6277203D586400116EBD /* Assets.xcassets in Resources */,
+				EC6B6275203D586400116EBD /* Main.storyboard in Resources */,
+				EC6B62A0203D58DA00116EBD /* tesView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6B6280203D586400116EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6B628B203D586400116EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC6B6266203D586400116EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6B6272203D586400116EBD /* ViewController.m in Sources */,
+				EC6B627D203D586400116EBD /* main.m in Sources */,
+				EC6B626F203D586400116EBD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6B627E203D586400116EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6B6287203D586400116EBD /* autoresizingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6B6289203D586400116EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6B6292203D586400116EBD /* autoresizingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC6B6284203D586400116EBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC6B6269203D586400116EBD /* autoresizing */;
+			targetProxy = EC6B6283203D586400116EBD /* PBXContainerItemProxy */;
+		};
+		EC6B628F203D586400116EBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC6B6269203D586400116EBD /* autoresizing */;
+			targetProxy = EC6B628E203D586400116EBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC6B6273203D586400116EBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6B6274203D586400116EBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC6B6278203D586400116EBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6B6279203D586400116EBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC6B6294203D586400116EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC6B6295203D586400116EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC6B6297203D586400116EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8BDUH6ZF6;
+				INFOPLIST_FILE = autoresizing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiguang.wangmutian.autoresizing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC6B6298203D586400116EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8BDUH6ZF6;
+				INFOPLIST_FILE = autoresizing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiguang.wangmutian.autoresizing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC6B629A203D586400116EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8BDUH6ZF6;
+				INFOPLIST_FILE = autoresizingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiguang.wangmutian.autoresizingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autoresizing.app/autoresizing";
+			};
+			name = Debug;
+		};
+		EC6B629B203D586400116EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8BDUH6ZF6;
+				INFOPLIST_FILE = autoresizingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiguang.wangmutian.autoresizingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autoresizing.app/autoresizing";
+			};
+			name = Release;
+		};
+		EC6B629D203D586400116EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8BDUH6ZF6;
+				INFOPLIST_FILE = autoresizingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiguang.wangmutian.autoresizingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = autoresizing;
+			};
+			name = Debug;
+		};
+		EC6B629E203D586400116EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8BDUH6ZF6;
+				INFOPLIST_FILE = autoresizingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiguang.wangmutian.autoresizingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = autoresizing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC6B6265203D586300116EBD /* Build configuration list for PBXProject "autoresizing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6B6294203D586400116EBD /* Debug */,
+				EC6B6295203D586400116EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6B6296203D586400116EBD /* Build configuration list for PBXNativeTarget "autoresizing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6B6297203D586400116EBD /* Debug */,
+				EC6B6298203D586400116EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6B6299203D586400116EBD /* Build configuration list for PBXNativeTarget "autoresizingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6B629A203D586400116EBD /* Debug */,
+				EC6B629B203D586400116EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6B629C203D586400116EBD /* Build configuration list for PBXNativeTarget "autoresizingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6B629D203D586400116EBD /* Debug */,
+				EC6B629E203D586400116EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC6B6262203D586300116EBD /* Project object */;
+}
